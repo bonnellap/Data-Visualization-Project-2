@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*
+Alec Bonnell
+CIS 468 Assignment 2
+10/13/18
+*/
+
+#info {
+	display: flex;
+	justify-content: space-between;
+}
+
+#info h1 {
+	font-weight: normal;
+}
+
+.left {
+	border: solid;
+	border-color: blue;
+	padding: 1em;
+	color: green;
+}
+
+.right {
+	font-style: italic;
+	text-align: right;
+}
+
+.b {
+	fill: purple;
+}
+
+.axis {
+	text-anchor: middle;
+}

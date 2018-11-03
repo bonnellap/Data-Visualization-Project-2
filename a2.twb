@@ -1,0 +1,713 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20182.18.0925.2120                               -->
+<workbook original-version='18.1' source-build='2018.2.2 (20182.18.0925.2120)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <SortTagCleanup />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='data' inline='true' name='federated.00v0jcq0v0667218g8fkq036kwtc' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='data' name='semistructpassivestore-direct.13z1hqf0nrkgkh16weul60loyn54'>
+            <connection class='semistructpassivestore-direct' directory='C:/Users/Alec Bonnell/Desktop/Classes/CIS Class/CIS 468-01 Data Visualization/Homeworks/HW2/cis-468-assignment-2' filename='data.json' password='' server=''>
+              <semistruct-schemas>
+                <semistruct-schema table='[data.json]'>
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+              </semistruct-schemas>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <relation connection='semistructpassivestore-direct.13z1hqf0nrkgkh16weul60loyn54' name='data.json' table='[data.json]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Document Index (generated)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Document Index (generated)]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>Document Index (generated)</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>10</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[10]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>10</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>100</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[100]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>100</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>110</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[110]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>110</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>120</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[120]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>120</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>130</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[130]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>130</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>20</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[20]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>20</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>30</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[30]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>30</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>40</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[40]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>40</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>50</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[50]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>50</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>60</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[60]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>60</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>70</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[70]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>70</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>80</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[80]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>80</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>90</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[90]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>90</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[day]</local-name>
+            <parent-name>[data.json]</parent-name>
+            <remote-alias>day</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='real' name='[100]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>100</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[10]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>10</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[110]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>110</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[120]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>120</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[130]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>130</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[20]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>20</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[30]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>30</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[40]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>40</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[50]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>50</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[60]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>60</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[70]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>70</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[80]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>80</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[90]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>90</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column caption='70+' datatype='real' name='[Calculation_2780972818726510593]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='[70]+[80]+[90]+[100]+[110]+[120]+[130]' />
+      </column>
+      <column aggregation='Sum' datatype='integer' name='[Document Index (generated)]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>Document Index (generated)</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+        <calculation class='tableau' formula='1' />
+      </column>
+      <column aggregation='Sum' caption='Day' datatype='real' name='[day]' role='dimension' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>day</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column-instance column='[100]' derivation='Sum' name='[sum:100:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[10]' derivation='Sum' name='[sum:10:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[110]' derivation='Sum' name='[sum:110:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[120]' derivation='Sum' name='[sum:120:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[130]' derivation='Sum' name='[sum:130:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[20]' derivation='Sum' name='[sum:20:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[30]' derivation='Sum' name='[sum:30:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[40]' derivation='Sum' name='[sum:40:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[50]' derivation='Sum' name='[sum:50:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[60]' derivation='Sum' name='[sum:60:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[70]' derivation='Sum' name='[sum:70:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[80]' derivation='Sum' name='[sum:80:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[90]' derivation='Sum' name='[sum:90:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_2780972818726510593]' derivation='Sum' name='[sum:Calculation_2780972818726510593:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+      <folder name='Data' role='dimensions'>
+        <folder-item name='[Document Index (generated)]' type='field' />
+        <folder-item name='[day]' type='field' />
+      </folder>
+      <layout dim-ordering='alphabetic' dim-percentage='0.428571' measure-ordering='alphabetic' measure-percentage='0.571429' show-structure='false' user-set-layout='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' palette='blue_teal_10_0' type='palette'>
+            <map to='#2c5985'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:Number of Records:qk]&quot;</bucket>
+            </map>
+            <map to='#306c94'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:10:qk]&quot;</bucket>
+            </map>
+            <map to='#3482a4'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:20:qk]&quot;</bucket>
+            </map>
+            <map to='#3c97b2'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:30:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc]&quot;</bucket>
+            </map>
+            <map to='#57abbe'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:40:qk]&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:120:qk]&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:80:qk]&quot;</bucket>
+            </map>
+            <map to='#79bec8'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:50:qk]&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:130:qk]&quot;</bucket>
+            </map>
+            <map to='#99d0d0'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:60:qk]&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:90:qk]&quot;</bucket>
+            </map>
+            <map to='#bce4d8'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:Calculation_2780972818726510593:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:100:qk]&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:70:qk]&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:110:qk]&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='data' name='federated.00v0jcq0v0667218g8fkq036kwtc' />
+          </datasources>
+          <datasource-dependencies datasource='federated.00v0jcq0v0667218g8fkq036kwtc'>
+            <column datatype='real' name='[100]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>100</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[10]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>10</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[110]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>110</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[120]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>120</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[130]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>130</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[20]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>20</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[30]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>30</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[40]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>40</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[50]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>50</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[60]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>60</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[70]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>70</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[80]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>80</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[90]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>90</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column caption='70+' datatype='real' name='[Calculation_2780972818726510593]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='[70]+[80]+[90]+[100]+[110]+[120]+[130]' />
+            </column>
+            <column datatype='integer' name='[Number of Records]' role='measure' type='quantitative' user:auto-column='numrec'>
+              <calculation class='tableau' formula='1' />
+            </column>
+            <column aggregation='Sum' caption='Day' datatype='real' name='[day]' role='dimension' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>day</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[day]' derivation='None' name='[none:day:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[10]' derivation='Sum' name='[sum:10:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[20]' derivation='Sum' name='[sum:20:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[30]' derivation='Sum' name='[sum:30:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[40]' derivation='Sum' name='[sum:40:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[50]' derivation='Sum' name='[sum:50:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[60]' derivation='Sum' name='[sum:60:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_2780972818726510593]' derivation='Sum' name='[sum:Calculation_2780972818726510593:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Number of Records]' derivation='Sum' name='[sum:Number of Records:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.00v0jcq0v0667218g8fkq036kwtc].[:Measure Names]'>
+            <groupfilter function='union' user:op='manual'>
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:Calculation_2780972818726510593:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:60:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:50:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:40:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:30:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:20:qk]&quot;' />
+              <groupfilter function='member' level='[:Measure Names]' member='&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:10:qk]&quot;' />
+            </groupfilter>
+          </filter>
+          <manual-sort column='[federated.00v0jcq0v0667218g8fkq036kwtc].[:Measure Names]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:Calculation_2780972818726510593:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:60:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:50:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:40:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:30:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:20:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:10:qk]&quot;</bucket>
+              <bucket>&quot;[federated.00v0jcq0v0667218g8fkq036kwtc].[sum:Number of Records:qk]&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <slices>
+            <column>[federated.00v0jcq0v0667218g8fkq036kwtc].[:Measure Names]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.00v0jcq0v0667218g8fkq036kwtc].[Multiple Values]' scope='rows' value='Number of Records' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.00v0jcq0v0667218g8fkq036kwtc].[:Measure Names]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.00v0jcq0v0667218g8fkq036kwtc].[Multiple Values]</rows>
+        <cols>[federated.00v0jcq0v0667218g8fkq036kwtc].[none:day:qk]</cols>
+      </table>
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='37'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+            <card type='measures' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.00v0jcq0v0667218g8fkq036kwtc].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.00v0jcq0v0667218g8fkq036kwtc].[:Measure Names]</field>
+            <field>[federated.00v0jcq0v0667218g8fkq036kwtc].[none:Document Index (generated):ok]</field>
+            <field>[federated.00v0jcq0v0667218g8fkq036kwtc].[none:day:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
